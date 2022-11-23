@@ -36,4 +36,27 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    /* image url */
+    background-image: url(..//src/assets/bg-texture.png); 
 }
+
+/* ====== STYLES ======= */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+/* sizing all mentioned*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 2.5rem;
+} 
+
+section{
+    margin-top: 8rem; 
+}
+
